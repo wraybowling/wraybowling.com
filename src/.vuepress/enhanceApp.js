@@ -6,3 +6,9 @@
 // }) => {
 //   // ...apply enhancements to the app
 // }
+
+export default ({
+
+}) => {
+  
+}
