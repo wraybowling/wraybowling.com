@@ -3,5 +3,6 @@
 
 export default {
   title: 'Hello VuePress',
-  description: 'Just playing around'
+  description: 'Just playing around',
+  dest: 'dist', //destination
 }
