@@ -2,7 +2,7 @@
 // https://vuepress.vuejs.org/guide/basic-config.html
 
 module.exports = {
-  title: 'Hello VuePress',
-  description: 'Just playing around',
+  title: 'Wray Bowling',
+  description: `Hi, I'm Wray`,
   dest: 'dist', //destination
 }
