@@ -1,4 +1,5 @@
 <template>
+<!--
   <div class="theme-container"
     :class="pageClasses"
     @touchstart="onTouchStart"
@@ -18,9 +19,26 @@
       <slot name="page-bottom" slot="bottom"/>
     </Page>
   </div>
+-->
+	<div>
+		<p>Yo. These pages</p>
+		<ol>
+			<li v-for="essay in essays" key="essay.key">{{essay.title}}</li>
+		</ol>
+	</div>
 </template>
 
 <script>
+export default {
+	computed: {
+		essays: context => context.$site.pages
+	},
+	mounted() {
+		console.log(this.essays)
+	}
+}
+
+/*
 import Vue from 'vue'
 import nprogress from 'nprogress'
 import Home from './Home.vue'
@@ -81,7 +99,11 @@ export default {
         },
         userPageClass
       ]
-    }
+    },
+		pages() {
+			console.log('the pages', this.$site.pages )
+			return this.$site.pages
+		}
   },
 
   mounted () {
@@ -127,6 +149,7 @@ export default {
     }
   }
 }
+*/
 </script>
 
 <style src="prismjs/themes/prism-tomorrow.css"></style>
