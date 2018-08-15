@@ -25,13 +25,36 @@
 		<ol>
 			<li v-for="essay in essays" key="essay.key">{{essay.title}}</li>
 		</ol>
+		<Home/>
 	</div>
 </template>
 
 <script>
+import Home from './Home.vue';
+import gql from 'graphql-tag';
 export default {
+	components: { Home },
 	computed: {
 		essays: context => context.$site.pages
+	},
+	apollo: {
+		$loadingKey: 'loading',
+    things: {
+      query: gql`
+        query allTheThings {
+          things {
+            id
+            name
+            image{
+              url
+              handle
+            }
+          }
+        }
+      `,
+      variables: () => ({  }),
+      update: ({ things }) => things
+    }
 	},
 	mounted() {
 		console.log(this.essays)
