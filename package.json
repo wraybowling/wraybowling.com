@@ -13,6 +13,12 @@
   "dependencies": {},
   "repository": "https://github.com/wraybowling/wraybowling.com",
   "devDependencies": {
+    "apollo-cache-inmemory": "^1.2.7",
+    "apollo-client": "^2.3.8",
+    "apollo-link-http": "^1.5.4",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "vue-apollo": "^3.0.0-beta.19",
     "vuepress": "^0.12.0"
   }
 }
