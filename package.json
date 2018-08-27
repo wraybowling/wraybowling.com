@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src",
-    "test": "echo \"There are no tests, so we can assume everything is either totally fine or totally broken.\" && exit 1"
+    "test": "echo \"There are no tests, so we can assume everything is either totally fine or totally broken.\""
   },
   "author": "Wray Bowling",
   "license": "ISC",
