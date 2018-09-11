@@ -9,6 +9,50 @@
 Over in Human Land, we have what I'll call Experiential Learning (EL) and Experieintial Intelligence (EI), and a black box culture. with Machine Learning (the machine learns the stuff) and Artificial Intelligence (now the machine supposedly knows the stuff and can implement it) To put it bluntly, it's man versus machine. I will argue that the two sides, man and machine, are so closely related that they not only complement one another, but are destined to symbiotically merge. The links missing at the time of this writing I believe are largely in the graphical representation and user interfaces we use to manipulate graphy data.
 Graphy Data is anything kind of data is this heavily reliant on relationships. The number of samples may be few, but how they are related to each other is very rich and detailed allowing humans to ask a computer questions about how two or more things are connected, or perhaps why.
 
+<graph graphJSON='{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "milk",
+            "node_type": "food",
+            "weight": 2
+        },
+        {
+            "id": 1,
+            "name": "bread",
+            "node_type": "food",
+            "weight": 2
+        }
+    ],
+    "edges": [
+        {
+            "source": 1,
+            "target": 0,
+            "caption": "Maintains"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "caption": "Maintains"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "caption": "Maintains"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "caption": "Often Breaks"
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "caption": "contributes"
+        }
+    ]
+}' />
+
 ## A Conceptual Example
 Filters. It seems like any web site with A Lot of Stuff provides users with various filters for __ but the flow of information goes one way from machine to human. What about collecting data that lives out of bounds from the filters available? What if collection of that data was built in while using filters on a web site. Every filtered list potentially empty could be an opportunity to collect suggestions. We could encourage users to _keep going_, adding categories that didn't exist in the dataset as necessary, and then allow them to submit that combination of parameters for man and machine to learn from.
 
