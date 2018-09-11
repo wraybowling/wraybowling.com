@@ -1,12 +1,16 @@
 ---
 {
-	"title": "Graph Experience Learning",
+	"title": "Learn, Graph, Repeat.",
 	"title_sub" : "How I want to live my life, Part I"
 }
 ---
 
-# New Content
-Over in Human Land, we have what I'll call Experiential Learning (EL) and Experieintial Intelligence (EI), and a black box culture. with Machine Learning (the machine learns the stuff) and Artificial Intelligence (now the machine supposedly knows the stuff and can implement it) To put it bluntly, it's man versus machine. I will argue that the two sides, man and machine, are so closely related that they not only complement one another, but are destined to symbiotically merge. The links missing at the time of this writing I believe are largely in the graphical representation and user interfaces we use to manipulate graphy data.
+# {{ $page.title }}
+One of the aspects of User Experience research that I hold close to my heart is the process of mind mapping. There is so much wonderful phychological research on the subject of how humans percieve the outside world, and it's just plain fun to wire up a computer to learn in similar ways and see what happens.
+
+The most interesting defect in the results of a test like that is that often it is a challenge to our own perception. That is to say that some times a computer model of what other people are thinking often makes us feel insecure about the fact that we don't think like the computer, and by extension, like other people. I can think of no better topic to launch into.
+
+Over in Human Land, we have what I'll call Experiential Learning and Experieintial Intelligence, and a black box culture. with Machine Learning (the machine learns the stuff) and Artificial Intelligence (now the machine supposedly knows the stuff and can implement it) To put it bluntly, it's man versus machine. I will argue that the two sides, man and machine, are so closely related that they not only complement one another, but are destined to symbiotically merge. The links missing at the time of this writing I believe are largely in the graphical representation and user interfaces we use to manipulate graphy data.
 Graphy Data is anything kind of data is this heavily reliant on relationships. The number of samples may be few, but how they are related to each other is very rich and detailed allowing humans to ask a computer questions about how two or more things are connected, or perhaps why.
 
 <graph graphJSON='{
@@ -146,7 +150,7 @@ There's very specific cases where asking for feedback works, and one should stil
 
 
 
-# {{ $page.title }} (<em>{{ $page.frontmatter.title_sub }}</em>)
+
 I've realized something profound. The facts themselves are fairly sound, it might just be our beliefs and expectations that are delicate. "People are the problem" as they say. The realization is that the following three things are extremely similar in nature
 
 * user experience design
