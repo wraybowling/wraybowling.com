@@ -2,7 +2,7 @@
   <svg pointer-events="all" xlink:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="300" height="100">
     <g v-for="node in nodes" :key="node.id" :transform="node.transform">
       <circle cx="0" cy="0" r="5"/>
-      <text :r="node.weight" x="0" y="-10">{{node.name}}</text>
+      <text :r="5" x="0" y="-10">{{node.name}}</text>
     </g>
     <line v-for="node in nodes" x1="0" y1="0" x2="30" y2="40" />
   </svg>
