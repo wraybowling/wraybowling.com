@@ -8,17 +8,34 @@
 I like making things that are interactive, respond instantaneously, and communicate ideas elegantly. I’m big on small files that do a lot, banishing unnecessary stateful UX, documentation as I go, and recyclable object-oriented structures. When I’m not programming for work, I do it for fun, and when I’m not designing things for work I do it for fun. I’m seeking a position that is looking for someone who has a passion for bridging the gap or even managing it.
 
 ## Key Skills
-UX	Wireframing / Balsamiq / Noodl / FramerJS / User Testing
-Programming	HTML5 / Apache / php / MySQL / C++ / Python / Processing
-Scripting	Javascript / jQuery / Meteor / Django templates / Jinja
-Graphics	CSS / Photoshop / Inkscape / Blender / Illustrator / OpenFrameworks
-Office	Google Docs / Libre Office / Git / SVN / Mercurial / Agile / Scrum
-OS	Apple OS X / Windows / Ubuntu Linux
+- User Experience Research
+  - Data Modeling
+  - Wireframing
+  - Rapid Prototyping
+  - User Interviews
+- Programming
+  - JavaScript
+  - HTML
+  - CSS
+  - Python
+  - Processing
+  - Arduino
+- Databases
+  - MySQL
+  - GraphQL
+  - MongoDB
+  - Arango AQL
+  - Neo4j Cypher
+  - Airtable API
+- Computer Graphics
+  - SVG
+  - Blender
+  - OpenFrameworks
 
 ## Experience
 ### User Experience & Front-End Web Developer Aug 2015 - Aug 2018 / Richland Library (Columbia, SC)
 - Richland Library is a nationally acclaimed, South Carolina State run, public library.
-- Designed and styled buildingyourlibrary.com to showcase the rennovation of 12+  physical locations.
+- Designed and styled buildingyourlibrary.com to showcase the renovation of 12+  physical locations.
 - Deployed a digital wayfinding kiosk using Vue.js
 - Learned to love: Node.js, Webpack, Babel, Vue, Graph Databases, Card Sorts, Eye Tracking, GraphQL, Airtable, working with a large content team, and of course public libraries as a whole
 - Learned to hate: Decoupled Drupal, being the only developer that isn't remote
