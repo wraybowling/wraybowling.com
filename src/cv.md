@@ -62,7 +62,7 @@ I like making things that are interactive, respond instantaneously, and communic
 ### User Experience & Front-End Web Developer Aug 2015 - Aug 2018 / Richland Library (Columbia, SC)
 - Richland Library is a nationally acclaimed, South Carolina State run, public library.
 - Designed and styled buildingyourlibrary.com to showcase the renovation of 12+  physical locations.
-- Deployed a digital wayfinding kiosk using Vue.js
+- Deployed a digital wayfinding kiosk using a Vue, Vuex, and Mapbox frontend, and Node backend on Google Firebase
 - Learned to love: Node.js, Webpack, Babel, Vue, Graph Databases, Card Sorts, Eye Tracking, GraphQL, Airtable, working with a large content team, and of course public libraries as a whole
 - Learned to hate: Decoupled Drupal, being the only developer that isn't remote
 
@@ -70,18 +70,20 @@ I like making things that are interactive, respond instantaneously, and communic
 - Caktus is a Django development shop that has an affinity for humanitarian clients.
 - Designed and made art for a gamified medication adherence app targeted at youths with HIV.
 - Provided UX to Mozilla for their Mozillians.org phonebook and wrote JS/CSS.
-- Obtains skills in UX, mockups, user testing, code linting, and templating
-
-### Developer & Designer Jan 2010 - June 2013 / Intuvoe (Raleigh, NC)
-- Intuvoe is a company that focuses on e-learning and web-development.
-- Built courses for clients and improved the company’s workflow by building in-house scripts.
-- Built full web sites and fixed existing sites for clients using various technology stacks.
-- Obtained skills using Drupal, CodeIgniter, Flash, git, Python, SVN, Web Inspectors, vim, working with various types of clients (university, startup, personal connections, commission, & otherwise) 
+- Obtains skills in building interactive and animated mockups, user testing under strict privacy restrictions, code linting, progressive web applications, local storage, jinja2 templates, contributing to a git repository with heavy activity.
 
 ### Designer Sep 2011 - Sep 2012 / Avelist (Raleigh, NC)
-- Avelist.com is a startup company that offers an online service for shared lists.
-- Shared design process with the team’s developers and owner.
+- Avelist.com was a startup offered list-making and sharing as an online service.
+- Lead the design process with the team’s developers and owner.
 - Created a design brief with iterations, and translated layouts into markup for templates.
+- Obtained skills using UX playbooks, Mercurial, test-driven development, touch events, and hallway usability testing
+
+### Developer & Designer Jan 2010 - June 2013 / Intuvoe (Raleigh, NC)
+- Intuvoe was a contract webdev shop focused on e-learning.
+- Built courses for clients and improved the company’s workflow by building in-house scripts.
+- Built full web sites and fixed existing sites for clients using various technology stacks.
+- Obtained skills using SVN, Drupal, CodeIgniter, Flash, git, Python, Web Inspectors, regular expressions, vim, working with various types of clients (university, startup, personal connections, commission, & otherwise) 
+
 
 ## Education
 ### University of North Carolina Asheville Fall 2006 - Spring 2009
