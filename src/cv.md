@@ -4,35 +4,61 @@
 }
 ---
 
-## About Me
+## Principles
 I like making things that are interactive, respond instantaneously, and communicate ideas elegantly. I’m big on small files that do a lot, banishing unnecessary stateful UX, documentation as I go, and recyclable object-oriented structures. When I’m not programming for work, I do it for fun, and when I’m not designing things for work I do it for fun. I’m seeking a position that is looking for someone who has a passion for bridging the gap or even managing it.
 
 ## Key Skills
 - User Experience Research
   - Data Modeling
   - Wireframing
+  - Usability Interviews
+  - Creating custom data retrieval and analysis solutions
+- Front-End Web Development
+  - creating custom frameworks
+  - complex responsive layouts on grid and off
+  - minimalist semantic markup for accessibility and SEO
+- Back-End Web Development
+  - Prerendering HTML with lightweight workflows
+  - Custom content management systems
+  - Microservices and Functions for AWS or Firebase
+  - Using Apollo Server to unify multiple API endpoints
+- Interactive Design
   - Rapid Prototyping
-  - User Interviews
-- Programming
+  - Eye tracking
+  - Goal tracking
+
+## Preferred Technologies
+- Web Technologies
   - JavaScript
-  - HTML
-  - CSS
-  - Python
-  - Processing
-  - Arduino
+    - Node.js
+    - Webpack
+    - Netlify
+    - Vue
+    - Apollo
+  - SVG
+  - CSS Grid
 - Databases
   - MySQL
-  - GraphQL
   - MongoDB
-  - Arango AQL
-  - Neo4j Cypher
-  - Airtable API
+  - ArangoDB
+  - Neo4j
+  - Airtable
+- APIs
+  - GraphQL
+  - MapboxGL
 - Computer Graphics
-  - SVG
   - Blender
   - OpenFrameworks
+- Hardware
+  - Arduino
+  - Raspberry Pi
+- Automation & Scripting
+  - Python
+- Operating Systems
+  - Debian
+  - MacOS
 
-## Experience
+## Work Experience
 ### User Experience & Front-End Web Developer Aug 2015 - Aug 2018 / Richland Library (Columbia, SC)
 - Richland Library is a nationally acclaimed, South Carolina State run, public library.
 - Designed and styled buildingyourlibrary.com to showcase the renovation of 12+  physical locations.
@@ -60,4 +86,7 @@ I like making things that are interactive, respond instantaneously, and communic
 ## Education
 ### University of North Carolina Asheville Fall 2006 - Spring 2009
 Degree:	Interactive Multimedia Arts & Sciences (BA)
-Focuses:	Interactive Design / Realtime Graphics / Actionscript 3 / AJAX / Print Design
+Focuses: Interactive Design / Realtime Graphics / Actionscript 3 / AJAX / Print Design
+
+### Wake Technical Community College Fall 2003 - Spring 2005
+Focuses: C++ / Physics / Math / Writing / Public Speaking / Music Theory
