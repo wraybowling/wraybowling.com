@@ -6,4 +6,5 @@
 
 # Projects OMG
 
-[JoyStation](./joystation/)
+- [JoyStation](./joystation/)
+- [Wayfinding Kiosk](./wayfinding-kiosk/)
