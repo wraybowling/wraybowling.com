@@ -48,17 +48,16 @@ School summer reading list (http://www.richlandlibrary.com/inform/school-summer-
 
 The responses converged on 2 major categories and a few minor categories:
 
-
 GENERAL RESOURCES (i.e. The Catalog)
+![general resources](./general-resources.png)
 
 LIBRARY INFORMATION (i.e. Everything Else)
+![library information](./library-information.png)
 
 get involved (i.e. volunteering/working at the library)
-
-business & careers
-events
-
-See the attached screenshots for breakdowns
+![get involved](./get-involved.png)
+![business and careers](./business-and-careers.png)
+![events](./events.png)
 
 There were common associations that disagree with the above categories:
 
@@ -70,11 +69,4 @@ There were common associations that disagree with the above categories:
 
 38% Request a Purchase & Finding Books
 
-See the attached screenshot for breakdown ￼
-
-![business and careers](./business-and-careers.png)
-![events](./events.png)
-![general resources](./general-resources.png)
-![get involved](./get-involved.png)
-![library information](./library-information.png)
 ![similarity disagreements](./similarity-disagreements.png)
