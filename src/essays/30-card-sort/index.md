@@ -6,6 +6,8 @@
 }
 ---
 
+![a card sort on a table](./card-sort-table.jpg)
+
 My first act of UX for Richland Library was an attempt to make sense of their main navigation.
 
 ## Selecting The Cards
@@ -28,7 +30,6 @@ I collected the most trafficed sections of the site as well as the biggest sign 
 15. [Compare information between services that offer e-magazines](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/download-it)
 16. [Addresses for our library locations](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/locations)
 17. [The typical posted hours of operation](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/locations)
-
 18. [Sign up for a library card](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/ask-us/answer/489830)
 19. [Reserve a meeting room](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/services/reserve-room)
 20. [Summer Learning Challenge](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/summer)
