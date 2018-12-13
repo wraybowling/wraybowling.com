@@ -26,60 +26,23 @@ Let's say we're examining a service that makes bubble tea. The factors in this e
 - green hard spiced
 - black hard spiced
 
-<graph graphJSON='{
-  "nodes": [
-    {
-      "id": 0,
-      "name": "green"
-    },
-    {
-      "id": 1,
-      "name": "black"
-    },
-    {
-      "id": 2,
-      "name": "hard"
-    },
-    {
-      "id": 3,
-      "name": "soft"
-    },
-    {
-      "id": 4,
-      "name": "sweetener"
-    },
-    {
-      "id": 5,
-      "name": "spices"
-    },
-    {
-      "id": 6,
-      "name": "tea"
-    },
-    {
-      "id": 7,
-      "name": "boba",
-    },
-    {
-      "id": 8,
-      "name": "add-on"
-    }
-  ],
-  "edges": [
-    {
-      "confidence": 1.0,
-      "source": 0,
-      "type": "is_a",
-      "target": 6
-    },
-    {
-      "confidence": 1.0,
-      "source": 1,
-      "type": "is_a",
-      "target": 0
-    }
-  ]
-}' />
+<graph>
+  <nodes>
+    <node>green</node>
+    <node>black</node>
+    <node>hard</node>
+    <node>soft</node>
+    <node>sweetener</node>
+    <node>spices</node>
+    <node>tea</node>
+    <node>boba</node>
+    <node>add-on</node>
+  </nodes>
+  <edges>
+    <edge from="green" label="is_a" to="tea" confidence=1.0 />
+    <edge from="black" label="is_a" to="tea" confidence=1.0 />
+  </edges>
+</graph>
 
 So you're an end user looking at options, playing with the options available harmlessly starting with a black tea, but no bubbles, sugar, or spices. Removing an item is simple enough. Typically not specifying will also return results that include sugar or spice simply because you didn't specify that you wanted either.
 

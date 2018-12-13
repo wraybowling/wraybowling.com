@@ -23,7 +23,11 @@ export default {
 //  },
   mounted() {
     // import data
-    const data = JSON.parse(this.graphJSON);
+    //const data = JSON.parse(this.graphJSON);
+    const data = this._data;
+    console.log('the data', data);
+    /*
+    
     this.nodes = data.nodes;
     this.edges = data.edges;
     
@@ -40,6 +44,7 @@ export default {
 //      edge.x1 = node[
 //    }
     setTimeout(this.move, 2000);
+    */
   },
   methods: {
     move() {
