@@ -1,36 +1,47 @@
 ---
 {
-	"title": "Why I Built a 3-Way Range Input",
+	"title": "A 3-Way Range Input",
 	"date": "2018-01-18"
 }
 ---
 
 # {{ $page.title }}
 
-Do you know the square root of 3? Well, I didn't either last week and now I know it to 4 or 5 decimal places. I set out to make something that just plain didn't exist in the User Interface world: a 3-way slider. Why? Because 3 is a really really good number. If you're raising chickens, it's called "pecking order."
+A range slider is a commonplace user interface element that has only recently made its way into HTML forms. In an effort to capture richer data from end users, I set out to create a range slider that offers a third option. The result is below.
 
-Nonsense aside, here's what it looks like right now:
+<iframe src="https://codesandbox.io/embed/github/wraybowling/JoyStation/tree/master/" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-## live demo component goes here
+## The Problem
+Three is a very useful number when trying to establish a [pecking order](https://en.wikipedia.org/wiki/Pecking_order), discovering taxonomic hierarchy, or tree structure. When presenting a user with a set of choices to balance a range slider is the most intuitive way of capturing a normalized weight. The only existing interfaces for more than two items were checkboxes which offer no weights, multiple select boxes which are clumsy and offer no weights. While I could have presented the user with three separate sliders, this doesn't help the data analyst trying to quantify the user's answer.
 
-Why did this take four-ish days, and help from my friend Stephen? Because linear algebra is hard. Here's a list of things I tried that didn't work:
+## Intended Use
+![good fast cheap](./good-fast-cheap.jpg)
 
-1. [https://www.shadertoy.com/view/Xl2yDW](https://www.shadertoy.com/view/Xl2yDW)
-1. http://mathjs.org/docs/datatypes/matrices.html
-1. http://blackpawn.com/texts/pointinpoly/default.html
-1. http://thebookofshaders.com/edit.php?log=180118181551
-1. https://en.wikipedia.org/wiki/Distance_from_a_point_to_a_line#Vector_formulation
+The three-way range slider is intended to be used in cases where the user needs to allocate arbitrary amounts to any of three choices but should be limited to a finite quota. It was originally developed to be used in [JoyStation](https://github.com/rcpl/JoyStation/).
 
-I'm sure no one else here cares to know how to make a slider that's tilted √3 or negative √3 depending on which side of the triangle you're closest to, or how to efficiently snap the sliding dot to the nearest corner if you're dragging in the fan-shaped area around that point, and then smoothly transition into sliding along the next edge if you make a 60 degree turn around the corner
+## Failed Attempts
+Here's a list of things I tried that didn't work:
 
-But here's how it works:
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Xl2yDW?gui=true&t=10&paused=true&muted=true" allowfullscreen></iframe>
 
-Warning: everything was rendered to an SVG which means that positive Y goes down, and every math equation you'll find online has positive Y going up. It's confusing.
+1. [A signed distance function](https://www.shadertoy.com/view/Xl2yDW)
+1. [Multi-Dimensional Matrices](http://mathjs.org/docs/datatypes/matrices.html)
+1. [Point in polygon](http://blackpawn.com/texts/pointinpoly/default.html)
+1. [Yet another signed distance function](http://thebookofshaders.com/edit.php?log=180118181551)
+1. [Distance from a point to a line](https://en.wikipedia.org/wiki/Distance_from_a_point_to_a_line#Vector_formulation)
 
-![The regions outside of the triangle split up into sides and corners](./IMG_1954.jpg)
+## The Math
 
-![for the left side, the slope is 1/sqrt(3). the right side is just the negative of that. In regular math coordinates, these would be reversed, but remember that graphics coordinates are vertically flipped.](./IMG_1955.jpg)
+I'm sure no one else cares to know how to make a slider that's tilted √3 or negative √3 depending on which side of the triangle you're closest to, or how to efficiently snap the sliding dot to the nearest corner if you're dragging in the fan-shaped area around that point, and then smoothly transition into sliding along the next edge if you make a 60 degree turn around the corner...but here's how it works anyway. *Warning: everything was rendered to an SVG which means that positive Y goes down, and every math equation you'll find online has positive Y going up.*
 
-![if the event point is less than either of the red lines, just snap to the apex. This is cheaper than calculating distance.](./IMG_1956.jpg)
+![split triangle](./IMG_1954.jpg)
+The regions outside of the triangle split up into sides and corners
 
-![To determine the point along the sloped sides, the new vector (p-a).dot(n).multiply(n) where n is a unit vector of AB (from the apex to the base, with with a length of one) To write it another way, n = B.subtract(A).normalize() which could also be called "the angle" and (p-a).dot(n) could be called "the length from A" the mutiplication of the two results in a point projected onto the line.](./IMG_1957.jpg)
+![left side](./IMG_1955.jpg)
+for the left side, the slope is 1/sqrt(3). the right side is just the negative of that. In regular math coordinates, these would be reversed, but remember that graphics coordinates are vertically flipped.
+
+![snap to apex](./IMG_1956.jpg)
+if the event point is less than either of the red lines, just snap to the apex. This is cheaper than calculating distance.
+
+![projecting to the edge](./IMG_1957.jpg)
+To determine the point along the sloped sides, the new vector (p-a).dot(n).multiply(n) where n is a unit vector of AB (from the apex to the base, with with a length of one) To write it another way, n = B.subtract(A).normalize() which could also be called "the angle" and (p-a).dot(n) could be called "the length from A" the mutiplication of the two results in a point projected onto the line.

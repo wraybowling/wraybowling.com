@@ -3,7 +3,7 @@
 ## Essays
 1. [A 30 Card Sort](/essays/30-card-sort/)
 2. [The Ultimate Content Filter](/essays/ultimate-content-filter)
-3. [Why I Built a 3-Way Range Input](/essays/triangular-range-input/)
+3. [A 3-Way Range Input](/essays/triangular-range-input/)
 
 
 ## Well, here we are
