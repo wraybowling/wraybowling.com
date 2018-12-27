@@ -11,7 +11,7 @@
 <script>
 export default {
   name:'graph',
-  props: ['graphJSON'],
+  props: ['graphjson'],
   data(){
     return {
       nodes: [],
@@ -22,7 +22,12 @@ export default {
     
 //  },
   mounted() {
+    // load file
+    this.importData();
+
     // import data
+
+
     //const data = JSON.parse(this.graphJSON);
     const data = this._data;
     console.log('the data', data);
@@ -47,6 +52,11 @@ export default {
     */
   },
   methods: {
+    importData() {
+      const graphData = require(this.graphjson);
+      console.log('ze graph data from json file', graphData);
+      return graphData;
+    },
     move() {
       for(let i=0; i<this.nodes.length; i++){
         this.nodes[i].x += 1;

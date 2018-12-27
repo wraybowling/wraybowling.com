@@ -26,23 +26,7 @@ Let's say we're examining a service that makes bubble tea. The factors in this e
 - green hard spiced
 - black hard spiced
 
-<graph>
-  <nodes>
-    <node>green</node>
-    <node>black</node>
-    <node>hard</node>
-    <node>soft</node>
-    <node>sweetener</node>
-    <node>spices</node>
-    <node>tea</node>
-    <node>boba</node>
-    <node>add-on</node>
-  </nodes>
-  <edges>
-    <edge from="green" label="is_a" to="tea" confidence=1.0 />
-    <edge from="black" label="is_a" to="tea" confidence=1.0 />
-  </edges>
-</graph>
+<graph graphjson="/essays/graph-experience-learning/bacon.graph.json"/>
 
 So you're an end user looking at options, playing with the options available harmlessly starting with a black tea, but no bubbles, sugar, or spices. Removing an item is simple enough. Typically not specifying will also return results that include sugar or spice simply because you didn't specify that you wanted either.
 
