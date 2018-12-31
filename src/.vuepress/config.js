@@ -3,6 +3,12 @@
 
 module.exports = {
   title: 'Wray Bowling',
-  description: `Hi, I'm Wray`,
+  description: "The web site or Wray Bowling",
   dest: 'dist', //destination
-}
+	themeConfig: {
+		repo: 'wraybowling/wraybowling.com',
+		//repoLabel: 'Improve this site',
+		editLinks: true,
+		editLinkText: 'Improve this page'
+	}
+};

@@ -1,0 +1,19 @@
+<xml>
+  <graph>
+    <nodes>
+      <node>green</node>
+      <node>black</node>
+      <node>hard</node>
+      <node>soft</node>
+      <node>sweetener</node>
+      <node>spices</node>
+      <node>tea</node>
+      <node>boba</node>
+      <node>add-on</node>
+    </nodes>
+    <edges>
+      <edge from="green" label="is_a" to="tea" confidence=1.0 />
+      <edge from="black" label="is_a" to="tea" confidence=1.0 />
+    </edges>
+  </graph>
+</xml>

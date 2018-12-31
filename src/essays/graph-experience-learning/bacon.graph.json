@@ -1,0 +1,336 @@
+{
+  "edges": [
+    {
+      "_source": 13810,
+      "_target": 630970,
+      "data": {
+        "role": "An old steward"
+      },
+      "style": {
+        "caption": "acted in"
+      }
+    },
+    {
+      "_source": 55903,
+      "_target": 660137,
+      "data": {
+        "role": "Naomi Caldwell"
+      },
+      "style": {
+        "caption": "acted in"
+      }
+    },
+    {
+      "_source": 707157,
+      "_target": 224003,
+      "data": {
+        "role": "Mabel Normand"
+      },
+      "style": {
+        "caption": "acted in"
+      }
+    },
+    {
+      "_source": 13810,
+      "_target": 707157,
+      "data": {
+        "role": "Hynkel"
+      },
+      "style": {
+        "caption": "acted in"
+      }
+    },
+    {
+      "_source": 707157,
+      "_target": 182771,
+      "data": {
+        "role": "Mack Sennett"
+      },
+      "style": {
+        "caption": "acted in"
+      }
+    },
+    {
+      "_source": 814132,
+      "_target": 61016,
+      "data": {
+        "role": "Marty"
+      },
+      "style": {
+        "caption": "acted in"
+      }
+    },
+    {
+      "_source": 182771,
+      "_target": 803447,
+      "data": {
+        "role": "Roman Craig"
+      },
+      "style": {
+        "caption": "acted in"
+      }
+    },
+    {
+      "_source": 803447,
+      "_target": 61016,
+      "data": {
+        "role": "Jake Briggs"
+      },
+      "style": {
+        "caption": "acted in"
+      }
+    },
+    {
+      "_source": 814132,
+      "_target": 61016
+    },
+    {
+      "_source": 630970,
+      "_target": 55903,
+      "data": {
+        "role": "Martha"
+      },
+      "style": {
+        "caption": "acted in"
+      }
+    },
+    {
+      "_source": 224003,
+      "_target": 814132,
+      "data": {
+        "role": "Sybil"
+      },
+      "style": {
+        "caption": "acted in"
+      }
+    },
+    {
+      "_source": 13810,
+      "_target": 707157,
+      "data": {
+        "role": "The Tramp"
+      },
+      "style": {
+        "caption": "acted in"
+      }
+    },
+    {
+      "_source": 660137,
+      "_target": 61016,
+      "data": {
+        "role": "Carroll Caldwell"
+      },
+      "style": {
+        "caption": "acted in"
+      }
+    },
+    {
+      "_source": 13810,
+      "_target": 707157,
+      "data": {
+        "role": "A Jewish Barber"
+      },
+      "style": {
+        "caption": "acted in"
+      }
+    },
+    {
+      "_source": 607369,
+      "_target": 61016,
+      "data": {
+        "role": "David Lindhagen"
+      },
+      "style": {
+        "caption": "acted in"
+      }
+    },
+    {
+      "_source": 224003,
+      "_target": 607369,
+      "data": {
+        "role": "Kate"
+      },
+      "style": {
+        "caption": "acted in"
+      }
+    },
+    {
+      "_source": 814132,
+      "_target": 61016
+    }
+  ],
+  "nodes": [
+    {
+      "_id": 55903,
+      "data": {
+        "genre": [],
+        "mid": "/m/01q697",
+        "name": "Tippi Hedren",
+        "node_type": "other",
+        "type": "person"
+      },
+      "style": {
+        "caption": "Tippi Hedren"
+      }
+    },
+    {
+      "_id": 660137,
+      "data": {
+        "genre": [
+          "Drama"
+        ],
+        "mid": "/m/0gw_7xk",
+        "name": "Jayne Mansfield's Car",
+        "node_type": "other",
+        "type": "movie"
+      },
+      "style": {
+        "caption": "Jayne Mansfield's Car"
+      }
+    },
+    {
+      "_id": 13810,
+      "data": {
+        "genre": [],
+        "mid": "/m/01lc5",
+        "name": "Charlie Chaplin",
+        "node_type": "root",
+        "type": "person"
+      },
+      "style": {
+        "caption": "Charlie Chaplin"
+      }
+    },
+    {
+      "_id": 607369,
+      "data": {
+        "genre": [
+          "Romance Film",
+          "Romantic comedy",
+          "Comedy-drama",
+          "Drama",
+          "Comedy"
+        ],
+        "mid": "/m/0ddf2bm",
+        "name": "Crazy, Stupid, Love.",
+        "node_type": "other",
+        "type": "movie"
+      },
+      "style": {
+        "caption": "Crazy, Stupid, Love."
+      }
+    },
+    {
+      "_id": 630970,
+      "data": {
+        "genre": [
+          "Romantic comedy",
+          "Romance Film",
+          "Comedy"
+        ],
+        "mid": "/m/08h1y4",
+        "name": "A Countess from Hong Kong",
+        "node_type": "other",
+        "type": "movie"
+      },
+      "style": {
+        "caption": "A Countess from Hong Kong"
+      }
+    },
+    {
+      "_id": 814132,
+      "data": {
+        "genre": [
+          "Romance Film",
+          "Film adaptation",
+          "Indie film",
+          "Drama",
+          "Comedy"
+        ],
+        "mid": "/m/0fc42k",
+        "name": "Loverboy",
+        "node_type": "other",
+        "type": "movie"
+      },
+      "style": {
+        "caption": "Loverboy"
+      }
+    },
+    {
+      "_id": 224003,
+      "data": {
+        "genre": [],
+        "mid": "/m/01g257",
+        "name": "Marisa Tomei",
+        "node_type": "other",
+        "type": "person"
+      },
+      "style": {
+        "caption": "Marisa Tomei"
+      }
+    },
+    {
+      "_id": 182771,
+      "data": {
+        "genre": [],
+        "mid": "/m/0d608",
+        "name": "Dan Aykroyd",
+        "node_type": "other",
+        "type": "person"
+      },
+      "style": {
+        "caption": "Dan Aykroyd"
+      }
+    },
+    {
+      "_id": 803447,
+      "data": {
+        "genre": [
+          "Romance Film",
+          "Drama",
+          "Comedy"
+        ],
+        "mid": "/m/058kh7",
+        "name": "She's Having a Baby",
+        "node_type": "other",
+        "type": "movie"
+      },
+      "style": {
+        "caption": "She's Having a Baby"
+      }
+    },
+    {
+      "_id": 61016,
+      "data": {
+        "genre": [],
+        "mid": "/m/04954",
+        "name": "Kevin Bacon",
+        "node_type": "root",
+        "type": "person"
+      },
+      "style": {
+        "caption": "Kevin Bacon"
+      }
+    },
+    {
+      "_id": 707157,
+      "data": {
+        "genre": [
+          "Indie film",
+          "Biographical film",
+          "Costume drama",
+          "Period piece",
+          "Biography",
+          "Drama"
+        ],
+        "mid": "/m/016z5x",
+        "name": "Chaplin",
+        "node_type": "other",
+        "type": "movie"
+      },
+      "style": {
+        "caption": "Chaplin"
+      }
+    }
+  ]
+}
