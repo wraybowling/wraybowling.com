@@ -1,15 +1,32 @@
 ---
 {
 	"title": "Why I Built a 3-Way Range Input",
-	"date": "2018-01-18"
+  "categories": [
+    "input interfaces"
+  ]
 }
 ---
 
 # {{ $page.title }}
 
-## what is it?
-Do you know the square root of 3? Well, I didn't either last week and now I know it to 4 or 5 decimal places. I set out to make something that just plain didn't exist in the User Interface world: a 3-way slider. Why? Because 3 is a really really good number. If you're raising chickens, it's called "pecking order."
-## false assumptions
+## What is it?
+Almost exactly what you might expect, the 3-way slider is a triangle, evenly proportioned, with a single moveable dot to select a value between three options. I built it as a single Vue.js component so that it could be used in a variety of applications, while speficially tailoring it to the needs of the [Joystation](/projects/joystation) project.
+
+## Practical Use
+A linear range may give you two poles where the center point is neutral
+- Good versus Evil
+
+A triangular range is similar in that each of the three points are poles that have a center point of their own, and a shared center. By selecting somewhere between two options, you necessarily negate the third.
+- Good, fast, or cheap?
+
+Another scenario is when the user themselves is the determining data point that you are trying to measure-- not the thing in question. Let's use Good versus Evil again. If those are the poles of the spectrum, what is the point that we're plotting? Let's try ... (some sort of XKCD reference could go here. with an existing plot of data, placing your answer can be recorded as a triangulation relative to the nearest three data points. While this isn't as simple as recording the values on the good spectrum and the bad spectrum, it might allow for infinitely changing the dimensionality because the data is recorded in neural graph edges.
+
+## Motivations
+I set out to make something that didn't exist because I thought it would be more efficient at capturing relationships between objects.
+- With a single item on a linear spectrum, there are two poles already. A user can indecisively point to the center of this spectrum to note that they feelbalanced between the options, but this leaves out the option to specify that they feel neither strongly about both options. A third option, labelled 'neither' would measure this
+- Cosine function applied to normalized similarities results in a ratio between objects for the purposes of returning records similar to what the user specifies via weighted attributes. If a single slider could be viewed as an analog to a binary facet, then the triple-slider is logically three times better, be the options orthogonal or not.
+
+## False Assumptions
 I expected users to be less extreme with their responses. While there's nothing stopping them from answering with a landslide to a single option, this returns data that is just as binary as if I'd provided them with a much simpler user interface: a radio button.
 Ratios are somewhat useful, but the deductive reasoning required to turn those ratios into a global scale are challenging to make use of.
 
@@ -43,3 +60,4 @@ Warning: everything was rendered to an SVG which means that positive Y goes down
 ![if the event point is less than either of the red lines, just snap to the apex. This is cheaper than calculating distance.](./IMG_1956.jpg)
 
 ![To determine the point along the sloped sides, the new vector (p-a).dot(n).multiply(n) where n is a unit vector of AB (from the apex to the base, with with a length of one) To write it another way, n = B.subtract(A).normalize() which could also be called "the angle" and (p-a).dot(n) could be called "the length from A" the mutiplication of the two results in a point projected onto the line.](./IMG_1957.jpg)
+
