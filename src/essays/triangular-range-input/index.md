@@ -7,11 +7,20 @@
 
 # {{ $page.title }}
 
+## what is it?
 Do you know the square root of 3? Well, I didn't either last week and now I know it to 4 or 5 decimal places. I set out to make something that just plain didn't exist in the User Interface world: a 3-way slider. Why? Because 3 is a really really good number. If you're raising chickens, it's called "pecking order."
+## false assumptions
+I expected users to be less extreme with their responses. While there's nothing stopping them from answering with a landslide to a single option, this returns data that is just as binary as if I'd provided them with a much simpler user interface: a radio button.
+Ratios are somewhat useful, but the deductive reasoning required to turn those ratios into a global scale are challenging to make use of.
 
-Nonsense aside, here's what it looks like right now:
+## what i'd do different next time
+Character building interfaces like this one from NBA Hangtime allow the user a finite number of points that they can fill up different atributes with. It's impossible to not use up all the points or to stuff one attribute with all of your available points. This system is also much less tedious as more than three options can be weighted simultaneously.
+## reality of this project
+A linear slider turned out to be a better choice for a variety of reasons, but the biggest of all is that browsers already natively support them. Collecting data in any way took priority over perfecting the method of collecting those data points, and a 1-dimensional spectrum satisfied my desire to capture a value with high precision.
+## a video
 
-## live demo component goes here
+## Unexpected challenges and how I adapted my process
+Limiting a slider to a triangular area is not a trivial task.
 
 Why did this take four-ish days, and help from my friend Stephen? Because linear algebra is hard. Here's a list of things I tried that didn't work:
 
