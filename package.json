@@ -2,17 +2,18 @@
   "name": "wraybowling.com",
   "version": "1.0.0",
   "description": "It's me.",
-  "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
     "test": "echo \"There are no tests, so we can assume everything is either totally fine or totally broken.\""
   },
   "author": "Wray Bowling",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "nuxt":"latest"
+  },
   "repository": "https://github.com/wraybowling/wraybowling.com",
   "devDependencies": {
-    "vuepress": "^0.12.0"
   }
 }
