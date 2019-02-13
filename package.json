@@ -4,7 +4,7 @@
   "description": "It's me.",
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "nuxt generate",
     "start": "nuxt start",
     "test": "echo \"There are no tests, so we can assume everything is either totally fine or totally broken.\""
   },
