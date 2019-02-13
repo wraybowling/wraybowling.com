@@ -11,9 +11,9 @@
   "author": "Wray Bowling",
   "license": "ISC",
   "dependencies": {
-    "nuxt":"latest"
+    "axios": "^0.18.0",
+    "nuxt": "latest"
   },
   "repository": "https://github.com/wraybowling/wraybowling.com",
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
