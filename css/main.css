@@ -18,6 +18,10 @@ body{
   margin: 12vmin;
 }
 
+.logo{
+  width: 10vmin;
+}
+
 h1{
   font-family:"Fanwood Text", serif;
 }
