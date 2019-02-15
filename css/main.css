@@ -1,0 +1,36 @@
+// https://www.theleagueofmoveabletype.com/
+
+/*
+font-family: 'M PLUS 1p', sans-serif;
+font-family: 'Fanwood Text', serif;
+font-family: 'Finger Paint', cursive;
+*/
+
+html{
+  background-color:rgb(250,245,240);
+}
+
+body{
+  //font-family:"Fanwood Text", serif;
+  font-family:'M PLUS 1p', sans-serif;
+  font-size:calc(8pt + 3.14vmin);
+  color:rgb(4,4,22);
+  margin: 12vmin;
+}
+
+.logo{
+  width: 10vmin;
+}
+
+h1{
+  font-family:"Fanwood Text", serif;
+}
+
+p{
+  margin: 1em 0;
+}
+
+code{
+  font-family: "Inconsolata", monospace;
+}
+
