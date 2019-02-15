@@ -11,9 +11,15 @@
   "author": "Wray Bowling",
   "license": "ISC",
   "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-rc2.3",
     "axios": "^0.18.0",
-    "nuxt": "latest"
+    "graphql-tag": "^2.10.1",
+    "nuxt": "latest",
+    "nuxt-markdown-graphql": "^1.0.0",
+    "vue-cytoscape": "^0.2.4"
   },
   "repository": "https://github.com/wraybowling/wraybowling.com",
-  "devDependencies": {}
+  "devDependencies": {
+    "ava": "^1.2.1"
+  }
 }
