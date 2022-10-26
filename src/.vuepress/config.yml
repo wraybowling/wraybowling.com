@@ -1,0 +1,6 @@
+# config file
+# https://vuepress.vuejs.org/config/#title
+
+title:       Wray Bowling
+description: Hi, I'm Wray
+dest:        dist

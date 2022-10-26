@@ -1,25 +1,24 @@
 ---
-{
-	"title": "A 3-Way Range Input",
-	"date": "2018-01-18"
-}
+title: A 3-Way Range Input
+date: "2018-01-18"
 ---
-
-# {{ $page.title }}
 
 A range slider is a commonplace user interface element that has only recently made its way into HTML forms. In an effort to capture richer data from end users, I set out to create a range slider that offers a third option. The result is below.
 
-<iframe src="https://codesandbox.io/embed/github/wraybowling/JoyStation/tree/master/" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<RangeSlider3/>
 
 ## The Problem
+
 Three is a very useful number when trying to establish a [pecking order](https://en.wikipedia.org/wiki/Pecking_order), discovering taxonomic hierarchy, or tree structure. When presenting a user with a set of choices to balance a range slider is the most intuitive way of capturing a normalized weight. The only existing interfaces for more than two items were checkboxes which offer no weights, multiple select boxes which are clumsy and offer no weights. While I could have presented the user with three separate sliders, this doesn't help the data analyst trying to quantify the user's answer.
 
 ## Intended Use
+
 ![good fast cheap](./good-fast-cheap.jpg)
 
 The three-way range slider is intended to be used in cases where the user needs to allocate arbitrary amounts to any of three choices but should be limited to a finite quota. It was originally developed to be used in [JoyStation](https://github.com/rcpl/JoyStation/).
 
 ## Failed Attempts
+
 Here's a list of things I tried that didn't work:
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Xl2yDW?gui=true&t=10&paused=true&muted=true" allowfullscreen></iframe>
@@ -32,7 +31,7 @@ Here's a list of things I tried that didn't work:
 
 ## The Math
 
-I'm sure no one else cares to know how to make a slider that's tilted √3 or negative √3 depending on which side of the triangle you're closest to, or how to efficiently snap the sliding dot to the nearest corner if you're dragging in the fan-shaped area around that point, and then smoothly transition into sliding along the next edge if you make a 60 degree turn around the corner...but here's how it works anyway. *Warning: everything was rendered to an SVG which means that positive Y goes down, and every math equation you'll find online has positive Y going up.*
+I'm sure no one else cares to know how to make a slider that's tilted √3 or negative √3 depending on which side of the triangle you're closest to, or how to efficiently snap the sliding dot to the nearest corner if you're dragging in the fan-shaped area around that point, and then smoothly transition into sliding along the next edge if you make a 60 degree turn around the corner...but here's how it works anyway. _Warning: everything was rendered to an SVG which means that positive Y goes down, and every math equation you'll find online has positive Y going up._
 
 ![split triangle](./IMG_1954.jpg)
 The regions outside of the triangle split up into sides and corners
