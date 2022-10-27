@@ -1,44 +1,36 @@
-# Wray Bowling
+Well, here we are. Hey! You're a user. My name is Wray. The W is silent. I am a musician, digital artist, interactive designer, and web developer of the past <since time="1 Aug 2000 2:30:00 GMT-0400 (EDT)"/>. This is a basic landing page that links to other places where I've better established myself.
 
-## Essays
+## Interactive Design & UX
 
-1. [A 30 Card Sort](/essays/30-card-sort/)
-2. [The Ultimate Content Filter](/essays/ultimate-content-filter)
-3. [A 3-Way Range Input](/essays/triangular-range-input/)
+- [Collecting graphy data with 3-Way Range Sliders](/essays/triangular-range-input/)
+- [A 30 Card Sort](/essays/30-card-sort/)
 
-## Well, here we are
+## Music
 
-My name is Wray. The W is silent. I've been doing web development for <since time="1 Aug 2000 2:30:00 GMT-0400 (EDT)"/>. This is my new web site where I divulge deeply on my methods, processes, projects, and the people who have helped me make it all happen.
+- [Wrave](https://wrave.net) Electronica Albums & Singles
+- [Spotify Playlists](https://open.spotify.com/user/12179035886/playlists)
+
+## SwampFlux Eurorack Synthesizer Modules
+
+- [swampflux.com teaser website](https://swampflux.com/)
+- [Patreon](https://www.patreon.com/swampflux)
+
+## Art
+
+- [RGBK.org](https://web.archive.org/web/20210615064035/http://rgbk.org/) Digital works by me and friends, active since 2004. 🚧 _Down For Maintenance. Archive.org link provided_ 🚧
+- ~~hic et nunc~~ 🪦2020–2021
+
+## (Micro)Blogs
+
+- [RGBk Quarterly](http://rgbk-quarterly.tumblr.com/) old interactive design tumblr
+- [Clean Plate Club](https://cleanplateclub.tumblr.com/) After-dinner food photos with tongue-in-cheek commentary
+- [@wraybowling twitter](https://twitter.com/wraybowling)
+
+## CV
+
+- My [LinkedIn](https://www.linkedin.com/in/wraybowling/) is more up to date and thorough than any resume I've ever tried to keep track of myself.
+- But [here's an HTML page of my CV anyway](/cv.md).
+
+## Open Source
 
 Writing and development is done in the open using Github, Netlify, Vuepress, & Markdown. [You can contribute by proof-reading future content.](https://github.com/wraybowling/wraybowling.com/pulls)
-
-## But wait! There's more!
-
-- Interactive Design Essays
-  - Collecting graphy data with 3-Way Range Sliders
-  - JoyStation, an exercise in access
-  - Tips for writing tests for React with MochaJS
-  - Rapid prototyping tools ranked
-  - How to test nice people
-  - Touch Then & Touch Now (2013)
-- Music
-  - Wrave (Albums & Singles)
-  - Playlists
-- SwampFlux Eurorack Modules
-  - Pressure Plank
-  - Probablooper
-  - Monotony
-- (Micro)Blogs
-  - clean plate club
-  - RGBk Quarterly (more essays)
-  - @wraybowling twitter
-- Art
-  - RGBK.org
-  - hic et nunc
-- Friends & Family
-  - Alan Oatley
-  - Alan Bowling
-  -
-- CV
-  - My [LinkedIn](https://www.linkedin.com/in/wraybowling/) i smore up to date and thorough than any resume I've ever tried to keep track of myself.
-  - But [here's an HTML page of my CV anyway](/cv.md).

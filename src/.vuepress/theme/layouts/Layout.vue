@@ -1,17 +1,19 @@
 <template>
   <div class="theme-container">
-    <Header />
+    <Navbar />
     <h1>{{ $page.title }}</h1>
     <Content />
   </div>
 </template>
 
 <script>
-import Header from "@theme/components/Header.vue";
+import Navbar from "@theme/components/Navbar.vue";
 
 export default {
   components: {
-    Header,
+    Navbar,
   },
 };
 </script>
+
+<style src="../styles/index.styl" lang="stylus"></style>
