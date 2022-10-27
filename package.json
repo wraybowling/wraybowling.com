@@ -10,7 +10,9 @@
   },
   "author": "Wray Bowling",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "vec2": "^1.6.1"
+  },
   "repository": "https://github.com/wraybowling/wraybowling.com",
   "devDependencies": {
     "vuepress": "^0.12.0"
