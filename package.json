@@ -2,6 +2,7 @@
   "name": "wraybowling.com",
   "version": "1.0.0",
   "description": "It's me.",
+  "engines": { "node" : "14" },
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev src",
