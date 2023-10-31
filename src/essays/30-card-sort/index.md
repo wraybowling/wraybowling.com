@@ -1,6 +1,6 @@
 ---
 {
-	"title": "A 30 Card Sort",
+	"title": "Card Sorting The Richland Library Information Architecture",
 	"date": "2016-08-18",
 	"client": "Richland Library"
 }
