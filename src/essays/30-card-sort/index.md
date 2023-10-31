@@ -6,6 +6,8 @@
 }
 ---
 
+# {{ $page.title }}
+
 ![richlandlibrary.com circa 2017](./richland-library-headmast-2017.png)
 
 Hands-down the biggest card sort I have ever conducted was for [richlandlibrary.com](https://richlandlibrary.com). I conducted countless usability tests between 2015-2018 which ultimately led to a website redesign. The marketing department and librarians from the 12 (at the time) locations, all had vested interests in their own sections featured either in the main menu or on the front page. As such this was a very touchy subject internally, requiring feedback and involvement from a lot of people. Since the user base of richlandlibrary.com was at the time in the tens of thousands a day and in the top 1 million most viewed websites on the web, we figured that a non-zero amount of usability research with customers was necessary.
@@ -104,32 +106,32 @@ Last, there were disagreements that fell outside of the above categories. The be
 
 # Going Big
 
-The 30 card sort would pave the way for a much larger one, but since card sorts start to break down past 30 cards, some creative solutions were necessary. Another limitation I had to work with was that there was zero budget. So we went back to paper and spreadsheets.
+The 30 card sort would pave the way for a much larger one, but since card sorts start to break down past 30 cards, some creative solutions were necessary. Another limitation I had to work with was that there was still basically zero budget.
 
 ## Capturing The Sitemap
 
 ![Giant poster-sized printout](./giant-printout.jpg)
 
-To really capture the scale of the problem, I went about writing a script to capture absolutely every single significant section of the website. I then wrote abstracted descriptions of what the link navigated to into a large database. Using a custom script, I generated the sitemap as a single page. The result was printed out on the large format printer which the marketing department happened to have access to. We had it hanging up on the wall for the remainder of the redesign project and it often shocked people to see just how many items were on it. I thought this was a good motivational tour to get people on board with redesign, or rather with re-architecting the information and was really looking forward to doing a second printout. Once the reorganization had been completed I would have enjoyed printing out the sitemap again to visually compare the two.
+To really grasp the scale of the problem, I went about writing a script to capture absolutely every single significant section of the website. There were over 300 items. I then wrote abstracted descriptions of what the link navigated to into a large database. Using a custom script, I generated the sitemap as a single page. The result was printed out on the large format printer which the marketing department happened to have access to. We hung it up on the wall for the remainder of the redesign project. The poster often shocked people seeing just how big it was, and I thought this was a good motivational tool to get people on board with re-organizing the whole website.
 
-## Random selection
+_In hindsight, I should have kept the script on hand. Now that the redesign is complete, I would have enjoyed generating the sitemap again to visually compare the two._
+
+## Back To Paper
 
 ![Card split](./card-split.jpg)
 
-One theory I tried to entertain was that, since the cards on optimalworkshop.com were limited in size, I could conceivably run 10 cards sorts, each with 30 cards randomly selected. The categories resulting from those 10 sorts could then be put into another card sort to reduce the count further. The iterative reduction method didn’t work particularly well probably because people are not computers and the sample sets didn’t have enough overlap. I’m speculating that each of the sorts should’ve had at least a third overlapping with another sort in terms of card selection, which would’ve meant we needed no less than 13 sorts. That’s not a huge number but still the final sort of the categories wasn’t going to be in context with the rest of the exercises to write another way, hiding the entire rest of the process from participants that they didn’t understand why the categories actually came from.
+By this point, we had paid for 1 optimal workshop study to get more participants & cards, but each one cost $100, and if we made mistakes we'd have to pay for another one. Optimal Workshop also couldn't handle hundreds of cards.
 
-## Iterations & Deception
-
-With the only reasonable explanation about where categories and sorting methods came from to be pointed at me, both my colleagues and participants had a hard time, excepting the cards that they were given were the correct cards, and the categories had, in fact, been chosen by me not random paper published in example.com proposed an iterative card sort method which I found rather compelling the paper does not explicitly say to be deceptive only that iteratively passing assort from one participant into the next yields better results I took the reasoning to this, which is somewhat covered in the conclusion of the paper to be that the reason this works is because participants have someone else to blame whether that person actually exist or not doesn’t matter, so yes, I lied I lied to people that there was someone who would just come before them who had chosen the cards and categories, and then 10% of the samples that had been randomized by computer, and their job was simply to put things back in place The truth was that while cards had been somewhat previously sorted or not sorted at all, the cards were never randomly buried from the previous iteration, and in fact, participants were just being given a few cards here, and there to add to the existing set.
+One theory I tried to entertain was that I could conceivably run 10 cards sorts of 30. The categories resulting from those 10 sorts could then be put into another card sort to reduce the count further. The iterative reduction method didn’t work particularly well. I think perhaps that the sample sets didn’t have enough overlap.
 
 ## Nodes & Edges
 
 ![Gephi displaying a force directed graph](./gephi.png)
 
-By the end, the card sort result from optimalworkshop.com had been long abandoned due to its 30 card limitations. even if we had paid for a more premium tier, our card set was just too large for the platform, so I had started searching around For alternative tools. I believe that I used Airtable to capture results which were subsets of about 100 cards at a time I could’ve easily used Google Docs or some other spreadsheet tool. The reason for choosing Airtable was that it made calculations rather easy to do category the work that the optimal workshop card sorting tool does of coating and combining categories that people write down a process much better done by hand anyway, so the usefulness of the tool, but spoke to that particular task, began to erode, and I found myself using spreadsheets more and more often anyway after reading yet another interestingpaper byexample.com hi that touched on treating card sorts more as Craft and implementing graph theory I started looking for tools that could more easily manipulate graph relationships. I was particularly fond of the Facebook graph and when I started diving into graph theory around that time maybe 2012 or so I found the subject really interesting and probably the right solution for the problem, there were already existing graph databases, and I even took a neo for Jay for a spin on the set that is that I completed the research with would like to revisit it at some point the tool that ended up being the most useful and is still my preferred method is a combination of Google spreadsheets and a graph manipulation tool called Gephi.
+By the end, the card sort result from optimalworkshop.com had been long abandoned due to its 30 card limitation. Even if we had paid for a more premium tier, our card set was just too large for the platform, so I had started searching around for alternative tools. I believe that I used Airtable to capture results roughly 50 cards at a time. I could’ve easily used Google Docs or some other spreadsheet tool. The reason for choosing Airtable was that it made calculations rather easy to do. The results that Optimal Workshop card sorts were able to provide were also lost by switching tools, but I had read a wonderful research paper by Celeste Paul titled [Analyzing Card-Sorting Data Using Graph Visualization](https://www.celestelynpaul.com/files/p14jus.pdf). I was particularly fond of graph theory since 2013 when [Facebook Graph Search](https://en.wikipedia.org/wiki/Facebook_Graph_Search) came out. I even considered dabbled a bit in Neo4j to see if that was a good tool to use, but there wasn't a user interface to fascilitate data analysis. So I finally settled on piping the data into Gephi. It ended up being the most useful and most user friendly. My preferred method of grouping card sort results is still just a paper sort, a Google Docs spreadsheet, and Gephi. I'll have to write another article about just that, as it was a method refined a few times since 2018.
 
 ## Final Result
 
 ![Current Richland Library Menu](./current-menu.png)
 
-With limited sample sizes with a substantial amount of overlap with a little bit of iteration combined with deception, and with mini months of repeated card sorting with immeasurable number of participants I was able to reduce the richlandlibrary.com main navigation down to approximately 12 categories. Further research with the assistance of a major design firm Aten expanded the main menu a bit more into its final form.
+With many months of repeated card sorting with immeasurable number of participants I was able to reduce the richlandlibrary.com main navigation down to approximately 12 categories. Further research with the assistance of a major design firm Aten expanded the main menu a bit more into its final form which launched in 2019.
