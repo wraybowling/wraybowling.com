@@ -2,11 +2,8 @@ Well, here we are. Hey! You're a user. My name is Wray. The W is silent. I am a 
 
 ## Interactive Design & UX Essays
 
-- UX Playbook for Starters
-  - [30 Card Sorts, For Free](/essays/30-card-sort/)
-- UX Playbook for Experts
-  <!-- - [300 Card Sorts, For Free](/essays/300-card-sort/) -->
-  - [Collecting graphy data with 3-Way Range Sliders](/essays/triangular-range-input/)
+- [Card Sorting The Richland Library Information Architecture](/essays/30-card-sort/)
+- [Collecting graphy data with 3-Way Range Sliders](/essays/triangular-range-input/)
 
 ## SwampFlux Eurorack Synthesizer Modules
 
