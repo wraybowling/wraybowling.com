@@ -116,22 +116,18 @@ To really grasp the scale of the problem, I went about writing a script to captu
 
 _In hindsight, I should have kept the script on hand. Now that the redesign is complete, I would have enjoyed generating the sitemap again to visually compare the two._
 
-## Back To Paper
+## Paper, Spreadsheets, and Graph Theory
 
 ![Card split](./card-split.jpg)
 
-By this point, we had paid for 1 optimal workshop study to get more participants & cards, but each one cost $100, and if we made mistakes we'd have to pay for another one. Optimal Workshop also couldn't handle hundreds of cards.
-
-One theory I tried to entertain was that I could conceivably run 10 cards sorts of 30. The categories resulting from those 10 sorts could then be put into another card sort to reduce the count further. The iterative reduction method didn’t work particularly well. I think perhaps that the sample sets didn’t have enough overlap.
-
-## Nodes & Edges
+By this point, we had paid for 1 optimal workshop study to get more participants & cards, but each one cost $100, and if we made mistakes we'd have to pay for another one. Optimal Workshop also couldn't handle hundreds of cards. So we returned to paper, spreading cards out on large tables.
 
 ![Gephi displaying a force directed graph](./gephi.png)
 
-By the end, the card sort result from optimalworkshop.com had been long abandoned due to its 30 card limitation. Even if we had paid for a more premium tier, our card set was just too large for the platform, so I had started searching around for alternative tools. I believe that I used Airtable to capture results roughly 50 cards at a time. I could’ve easily used Google Docs or some other spreadsheet tool. The reason for choosing Airtable was that it made calculations rather easy to do. The results that Optimal Workshop card sorts were able to provide were also lost by switching tools, but I had read a wonderful research paper by Celeste Paul titled [Analyzing Card-Sorting Data Using Graph Visualization](https://www.celestelynpaul.com/files/p14jus.pdf). I was particularly fond of graph theory since 2013 when [Facebook Graph Search](https://en.wikipedia.org/wiki/Facebook_Graph_Search) came out. I even considered dabbled a bit in Neo4j to see if that was a good tool to use, but there wasn't a user interface to fascilitate data analysis. So I finally settled on piping the data into Gephi. It ended up being the most useful and most user friendly. My preferred method of grouping card sort results is still just a paper sort, a Google Docs spreadsheet, and Gephi. I'll have to write another article about just that, as it was a method refined a few times since 2018.
+A wonderful research paper by Celeste Paul titled [Analyzing Card-Sorting Data Using Graph Visualization](https://www.celestelynpaul.com/files/p14jus.pdf) struck a chord with me, so I began hunting for an appropriate tool. I was particularly fond of graph theory since 2013 when [Facebook Graph Search](https://en.wikipedia.org/wiki/Facebook_Graph_Search) came out. I even dabbled a bit in [Neo4j](https://neo4j.com/) and [ArangoDB](https://arangodb.com/) to see if either could more easily process the card sort results more easily, but there weren't intuitive user interfaces built in to do what we were doing and I was running out of time. Finally settled on processing the data in in an open source desktop application called [Gephi](https://gephi.org/). It ended up being the most useful and most user friendly. My preferred method of grouping card sort results is still just a paper sort, a Google Docs spreadsheet, and Gephi. I'll have to write another article about just that, as it is a method that's been refined a few times since 2018.
 
 ## Final Result
 
 ![Current Richland Library Menu](./current-menu.png)
 
-With many months of repeated card sorting with immeasurable number of participants I was able to reduce the richlandlibrary.com main navigation down to approximately 12 categories. Further research with the assistance of a major design firm Aten expanded the main menu a bit more into its final form which launched in 2019.
+With many months of repeated card sorting with immeasurable number of participants I was able to reduce the richlandlibrary.com main navigation down to approximately 12 categories. I presented the results during the process of the redesign project kicked off development. Further research with the assistance of a major design firm Aten expanded the main menu a bit more into its final form which launched in 2019, seen above.
