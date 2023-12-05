@@ -1,25 +1,27 @@
 {
   "name": "wraybowling.com",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "It's me.",
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt generate",
-    "start": "nuxt start",
-    "test": "echo \"There are no tests, so we can assume everything is either totally fine or totally broken.\""
-  },
   "author": "Wray Bowling",
   "license": "ISC",
-  "dependencies": {
-    "@nuxtjs/apollo": "^4.0.0-rc2.3",
-    "axios": "^0.18.0",
-    "graphql-tag": "^2.10.1",
-    "nuxt": "latest",
-    "nuxt-markdown-graphql": "^1.0.0",
-    "vue-cytoscape": "^0.2.4"
+  "private": true,
+  "engines": {
+    "node": ">= 20.0.0"
   },
-  "repository": "https://github.com/wraybowling/wraybowling.com",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "echo \"There are no tests, so we can assume everything is either totally fine or totally broken.\""
+  },
   "devDependencies": {
-    "ava": "^1.2.1"
-  }
+    "@nuxt/devtools": "latest",
+    "nuxt": "^3.8.2",
+    "vue": "^3.3.10",
+    "vue-router": "^4.2.5"
+  },
+  "repository": "https://github.com/wraybowling/wraybowling.com"
 }
