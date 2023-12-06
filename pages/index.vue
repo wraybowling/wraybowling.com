@@ -24,7 +24,7 @@
 </template>
 
 <script setup lang="ts">
-import type { User } from "../types/Users";
+import type { User } from "@/types/User";
 
 const { data: users }: { data: Ref<User[]> } = await useFetch(
   "https://jsonplaceholder.typicode.com/users"
