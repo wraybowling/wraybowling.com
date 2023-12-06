@@ -24,11 +24,8 @@
 </template>
 
 <script setup lang="ts">
-type User = {
-  id: number;
-  name: string;
-  email: string;
-};
+import type { User } from "../types/Users";
+
 const { data: users }: { data: Ref<User[]> } = await useFetch(
   "https://jsonplaceholder.typicode.com/users"
 );
